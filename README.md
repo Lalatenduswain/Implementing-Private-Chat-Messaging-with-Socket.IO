@@ -23,8 +23,8 @@ Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 1. Clone or Download the repository
 
 	```
-	$ git clone https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO
-	$ cd SocketIO-Chat-App
+	git clone https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO.git
+	cd cd Implementing-Private-Chat-Messaging-with-Socket.IO/
 	```
 2. Install Dependencies
 
