@@ -2,7 +2,7 @@
 
 ### Introducing Private Chat Messaging with Socket.IO ### 
 
-![Chat App Screenshot](https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO/public/img/chat-app.PNG "Chat")
+![Chat App Screenshot](https://raw.githubusercontent.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO/master/public/img/chat-app.png "Chat")
 
 ### EXPERIENCE THE SWIFT AND ROBUST REAL-TIME ENGINE ###
 
