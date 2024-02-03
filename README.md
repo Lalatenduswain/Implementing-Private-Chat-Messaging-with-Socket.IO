@@ -12,7 +12,7 @@ Empowering Real-Time Chat through Socket.IO, this web application facilitates pr
   
   * Familiarity with Socket.IO [Socket.IO](https://socket.io/)
 
-  * Understanding of JavaScript ES6 [ES6](https://www.udacity.com/course/es6-javascript-improved--ud356)
+  * Understanding of JavaScript ES6
    
   * Knowledge of WebSockets [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 
@@ -29,12 +29,12 @@ Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 2. Install Dependencies
 
 	```
-	$ npm install
+	npm install
 	```
 3. Launch the application
 
 	```
-	$ node index.js
+	node index.js
 	```
 Your app should now be accessible at [localhost:5555](http://localhost:5555/).
 
