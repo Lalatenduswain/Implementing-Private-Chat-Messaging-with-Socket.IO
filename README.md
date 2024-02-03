@@ -1,7 +1,5 @@
 # Welcome to the Private and Public Chat Socket.IO App by Lalatendu Swain!
 
-Test URL : https://chat.lalatendu.info/
-
 ## Introducing Private Chat Messaging with Socket.IO
 
 ![Chat App Screenshot](https://raw.githubusercontent.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO/master/public/img/chat-app.png "Chat")
