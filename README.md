@@ -21,7 +21,7 @@ This guide provides instructions for installing Node.js and npm on Ubuntu using 
 
 ### Prerequisites
 
-- Ubuntu operating system
+- Ubuntu Or Any Debian OS operating system
 
 ### Installation
 
