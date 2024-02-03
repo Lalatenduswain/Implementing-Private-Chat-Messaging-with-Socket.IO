@@ -50,7 +50,7 @@ To ensure your Node.js application runs persistently in the background, even aft
 1. **Install PM2** (if not already installed):
 
     ```bash
-    npm install pm2@latest -g
+    sudo npm install pm2@latest -g
     ```
 
 2. **Start your Node.js application with PM2**:
