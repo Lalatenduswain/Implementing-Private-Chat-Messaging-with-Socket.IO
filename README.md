@@ -1,6 +1,4 @@
-# Private and Public Chat Socket.IO App
-
-Welcome to the Private and Public Chat Socket.IO App by Lalatendu Swain!
+# Welcome to the Private and Public Chat Socket.IO App by Lalatendu Swain!
 
 ## Introducing Private Chat Messaging with Socket.IO
 
