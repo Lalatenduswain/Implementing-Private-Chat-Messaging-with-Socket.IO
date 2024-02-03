@@ -1,44 +1,100 @@
-## Welcome to Private and Public Chat Socket.IO App by Lalatendu Swain ##
+# Private and Public Chat Socket.IO App
 
-### Introducing Private Chat Messaging with Socket.IO ### 
+Welcome to the Private and Public Chat Socket.IO App by Lalatendu Swain!
+
+## Introducing Private Chat Messaging with Socket.IO
 
 ![Chat App Screenshot](https://raw.githubusercontent.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO/master/public/img/chat-app.png "Chat")
 
-### EXPERIENCE THE SWIFT AND ROBUST REAL-TIME ENGINE ###
+### EXPERIENCE THE SWIFT AND ROBUST REAL-TIME ENGINE
 
 Empowering Real-Time Chat through Socket.IO, this web application facilitates private and public conversations among multiple users. Users can engage in one-to-one chat seamlessly and efficiently. Please note that the application is coded in JavaScript ES6.
 
-### Prerequisites: ###
-  
-  * Familiarity with Socket.IO [Socket.IO](https://socket.io/)
+## Prerequisites
 
-  * Understanding of JavaScript ES6
-   
-  * Knowledge of WebSockets [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
+- Familiarity with [Socket.IO](https://socket.io/)
+- Understanding of JavaScript ES6
+- Knowledge of [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 
-## Installation<a name="installation"></a>
+## Installation
+
 ### Running Locally
+
 Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
 1. Clone or Download the repository
 
-	```
-	git clone https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO.git
-	cd cd Implementing-Private-Chat-Messaging-with-Socket.IO/
-	```
+    ```bash
+    git clone https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO.git
+    cd Implementing-Private-Chat-Messaging-with-Socket.IO/
+    ```
+
 2. Install Dependencies
 
-	```
-	npm install
-	```
+    ```bash
+    npm install
+    ```
+
 3. Launch the application
 
-	```
-	node index.js
-	```
+    ```bash
+    node index.js
+    ```
+
 Your app should now be accessible at [localhost:5555](http://localhost:5555/).
 
-  
-### Support or Contact ###
+## Running in the Background with PM2
 
-Encountering issues? Don't hesitate to submit an issue on our GitHub page.
+To ensure your Node.js application runs persistently in the background, even after you log out or close the terminal session, you can use a process manager like PM2. Follow these steps:
+
+1. **Install PM2** (if not already installed):
+
+    ```bash
+    npm install pm2@latest -g
+    ```
+
+2. **Start your Node.js application with PM2**:
+
+    ```bash
+    pm2 start index.js --name chat-app
+    ```
+
+3. **Ensure the application starts automatically on server reboots**:
+
+    ```bash
+    pm2 save
+    ```
+
+4. **Check the status of your applications managed by PM2**:
+
+    ```bash
+    pm2 status
+    ```
+
+5. **Monitor your application's logs**:
+
+    ```bash
+    pm2 logs chat-app
+    ```
+
+6. **To stop the application**:
+
+    ```bash
+    pm2 stop chat-app
+    ```
+
+7. **To restart the application**:
+
+    ```bash
+    pm2 restart chat-app
+    ```
+
+8. **To remove the application from PM2**:
+
+    ```bash
+    pm2 delete chat-app
+    ```
+
+## Support or Contact
+
+Encountering issues? Don't hesitate to submit an issue on our [GitHub page](https://github.com/Lalatenduswain/Implementing-Private-Chat-Messaging-with-Socket.IO/issues).
