@@ -16,7 +16,39 @@ Empowering Real-Time Chat through Socket.IO, this web application facilitates pr
 - Understanding of JavaScript ES6
 - Knowledge of [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 
-## Installation
+## Installing Node.js and npm on Debian Or Ubuntu
+This guide provides instructions for installing Node.js and npm on Ubuntu using the apt package manager.
+
+### Prerequisites
+
+- Ubuntu operating system
+
+### Installation
+
+1. **Open Terminal**: Press `Ctrl+Alt+T` to open a terminal window.
+
+2. **Update Package List**: Ensure your package list is up to date by running:
+
+    ```bash
+    sudo apt update
+    ```
+
+3. **Install Node.js and npm**: Run the following command to install Node.js and npm:
+
+    ```bash
+    sudo apt install npm nodejs -y
+    ```
+
+    The `-y` flag automatically answers yes to any prompts, making the installation non-interactive.
+
+4. **Verify Installation**: After the installation is complete, you can verify that Node.js and npm are installed correctly by checking their versions:
+
+    ```bash
+    node -v
+    npm -v
+    ```
+
+    This will display the installed versions of Node.js and npm.
 
 ### Running Locally
 
