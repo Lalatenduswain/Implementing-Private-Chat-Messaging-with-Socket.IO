@@ -53,43 +53,50 @@ To ensure your Node.js application runs persistently in the background, even aft
     sudo npm install pm2@latest -g
     ```
 
-2. **Start your Node.js application with PM2**:
+2. **Fix npm Global Directory Permissions**:
+
+    ```bash
+    sudo chown -R $(whoami) ~/.npm
+    sudo chown -R $(whoami) /usr/local/lib/node_modules
+    ```
+
+3. **Start your Node.js application with PM2**:
 
     ```bash
     pm2 start index.js --name chat-app
     ```
 
-3. **Ensure the application starts automatically on server reboots**:
+4. **Ensure the application starts automatically on server reboots**:
 
     ```bash
     pm2 save
     ```
 
-4. **Check the status of your applications managed by PM2**:
+5. **Check the status of your applications managed by PM2**:
 
     ```bash
     pm2 status
     ```
 
-5. **Monitor your application's logs**:
+6. **Monitor your application's logs**:
 
     ```bash
     pm2 logs chat-app
     ```
 
-6. **To stop the application**:
+7. **To stop the application**:
 
     ```bash
     pm2 stop chat-app
     ```
 
-7. **To restart the application**:
+8. **To restart the application**:
 
     ```bash
     pm2 restart chat-app
     ```
 
-8. **To remove the application from PM2**:
+9. **To remove the application from PM2**:
 
     ```bash
     pm2 delete chat-app
